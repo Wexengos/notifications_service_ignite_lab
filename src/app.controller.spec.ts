@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 describe('NotificationsController', () => {
   let notificationsController: NotificationsController;
 
+  // teste JEST
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [NotificationsController],
