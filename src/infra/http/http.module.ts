@@ -10,7 +10,7 @@ import { NotificationsController } from "./controllers/notifications.controller"
 
 @Module({
     imports: [DatabaseModule],
-    controllers: [NotificationsController],
+    controllers: [NotificationsController], // arquivos que lidam com chamadas HTTP; pontos de entrada da aplicação
     providers: [
         SendNotification,
         CancelNotification,
